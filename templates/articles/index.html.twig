@@ -12,7 +12,7 @@
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title">{{ article.titre }}</h5>
                             <span class="badge text-success">{{ article.sequence.nom }}</span>
-                            <p class="card-text">{{ article.contenu [:200]}} ...</p>
+                            <p class="card-text">{{ article.contenu [:200] | raw}} ...</p>
                             <div class="d-flex justify-content-end">
                                 <a class="btn "
                                    href="{{ path("app_article_slug", {'slug': article.slug}) }}">Voir
