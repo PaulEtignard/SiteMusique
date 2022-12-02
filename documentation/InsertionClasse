@@ -1,0 +1,1 @@
+INSERT INTO `niveau` (`id`, `intitule`, `slug`) VALUES (NULL, '6 eme', '6eme'), (NULL, '5 eme', '5eme'), (NULL, '4 eme', '4eme'), (NULL, '3 eme', '3eme'), (NULL, 'Chorale', 'chorale');
